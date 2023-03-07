@@ -67,29 +67,35 @@ IPv4归属地查询分为 **高精版**、**区县级**、**城市级**，共3�
 
 ```
 {
-    “code”: “Success”,
-    “data”: {
-        “continent”: “亚洲”,
-        “country”: “中国”,
-        “owner”: “imported inetnum object for IIINT”,
-        “isp”: “China Education and Research Network Center,Tsinghua University,Beijing 100084”,
-        “zipcode”: “100038”,
-        “timezone”: “UTC+8”,
-        “accuracy”: “城市”,
-        “source”: “数据挖掘”,
-        “areacode”: “CN”,
-        “adcode”: “110100”,
-        “asnumber”: “4538”,
-        “lat”: “40.009424”,
-        “lng”: “116.332556”,
-        “radius”: “105.2321”,
-        “prov”: “北京市”,
-        “city”: “北京市”
+    "code": "Success",
+    "data": {
+        "continent": "亚洲",
+        "asnumber": "4538",
+        "areacode": "CN",
+        "country": "中国",
+        "zipcode": "100038",
+        "timezone": "UTC+8",
+        "accuracy": "街道",
+        "owner": "清华大学",
+        "isp": "中国教育网",
+        "source": "算法定位",
+        "correctness": 5,
+        "consistency": 5,
+        "multiAreas": [{
+            "lat": "40.001897",
+            "lng": "116.322462",
+            "radius": "0.3994",
+            "prov": "北京市",
+            "city": "北京市",
+            "district": "海淀区",
+            "address": "北京市海淀区学堂路"
+        }]
     },
-    “charge”: true,
-    “msg”: “查询成功”,
-    “ip”: “166.111.4.100”,
-    “coordsys”: “WGS84”
+    "charge": true,
+    "msg": "查询成功",
+    "ip": "166.111.4.100",
+    "coordsys": "WGS84",
+    "area": "multi"
 }
 ```
 
